@@ -1,0 +1,11 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+// generate margin top
+@for $i from 0 through 100 {
+  $var: $i * 1%;
+  .margin-top-#{$i} {
+    margin-top: #{$var} !important; 
+  }
+}
