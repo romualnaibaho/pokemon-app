@@ -1,7 +1,7 @@
 <template>
   <div class="form-group">
-    <div class="row col-12">
-      <div class="col-6">
+    <div class="row col-12 m-0 p-0">
+      <div class="col-6 p-0 pr-1">
         <select @change="selectClassification" class="custom-select">
           <option value=''>All Classification</option>
           <option
@@ -13,7 +13,7 @@
           </option>
         </select>
       </div>
-      <div class="col-6">
+      <div class="col-6 p-0 pl-1">
           <select @change="selectType" class="custom-select">
           <option value=''>All Types</option>
           <option

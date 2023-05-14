@@ -16,7 +16,7 @@
     <div v-else>
       <!-- Filter and Search -->
       <div class="pt-3 filter-container filter">
-        <div class="row justify-content-between col-12">
+        <div class="row justify-content-between col-12 m-0">
           <div class="col-12 text-left fw-700 mb-3">
             Filter
           </div>
